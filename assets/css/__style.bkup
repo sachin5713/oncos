@@ -1,0 +1,666 @@
+#pmpro_btn-submit-paypalexpress {
+  display: none;
+}
+
+/*  */
+body {
+  font-family: "Montserrat", Sans-serif !important;
+}
+.oncos_authantication {
+  margin-top: -63px;
+  padding-top: 50px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/wp-content/uploads/2023/05/iStock-134149980_retouched.png");
+}
+.oncos_authantication .pmpro_login_wrap {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.oncos_authantication .pmpro_login_wrap h2,
+.oncos_registration h1 {
+  text-align: center;
+  font-size: 35px;
+  line-height: 43px;
+  color: #fff;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.oncos_authantication .pmpro_login_wrap #loginform,
+.oncos_registration .pmpro_form {
+  background: #fff;
+  padding: 40px 40px 50px;
+}
+.oncos_authantication .pmpro_login_wrap #loginform input {
+  max-width: 100% !important;
+  border-radius: 0;
+}
+.oncos_registration .pmpro_checkout-fields input {
+  max-width: 100% !important;
+  border-radius: 0;
+  width: 100% !important;
+}
+.oncos_authantication .pmpro_login_wrap #loginform label,
+.oncos_registration .pmpro_checkout-fields label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.oncos_authantication .pmpro_login_wrap #loginform p,
+.oncos_registration .pmpro_checkout-fields p {
+  margin-bottom: 20px;
+}
+.oncos_authantication .pmpro_login_wrap .login-submit #wp-submit,
+.oncos_registration #custom_btn-submit {
+  padding: 9px 27px !important;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  z-index: 9;
+  position: relative;
+}
+.oncos_authantication .pmpro_login_wrap .login-remember,
+.oncos_registration .pmpro_checkout-fields .pmpro_asterisk {
+  display: none;
+}
+.oncos_registration {
+  padding-top: 70px;
+  display: flex;
+  min-height: 100vh !important;
+  height: 100% !important;
+  align-items: center;
+  justify-content: center;
+}
+.oncos_registration .pmpro_checkout-fields > .row {
+  column-gap: 40px;
+  margin-bottom: 0;
+}
+.oncos_registration .pmpro_checkout-fields .col-sm-6 {
+  padding: 0 !important;
+  max-width: calc(50% - 20px) !important;
+}
+.oncos_authantication #loginform .login-username,
+.oncos_registration .pmpro_checkout-fields,
+.contact-main .full_name {
+  position: relative;
+  margin-top: 50px;
+}
+.oncos_authantication #loginform .login-username::before,
+.oncos_registration .pmpro_checkout-fields::before,
+.contact-main .full_name::before {
+  content: "*Required";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.logged-in .oncos_authantication #loginform .login-username::before,
+.logged-in .oncos_registration .pmpro_checkout-fields::before {
+  display: none !important;
+}
+.oncos_authantication .pmpro_actions_nav {
+  position: relative;
+  top: -120px;
+}
+.oncos_authantication .pmpro_actions_nav a {
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: underline;
+  background: no-repeat;
+  border: none;
+}
+.oncos_registration .pmpro_checkout-fields input:focus-visible,
+.oncos_authantication input:focus-visible {
+  outline: none;
+}
+.oncos_authantication #wp-submit,
+.oncos_registration #custom_btn-submit {
+  border: 1px solid #000 !important;
+}
+.oncos_authantication #wp-submit:hover,
+.oncos_registration #custom_btn-submit:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+header#masthead .header_nav_menu nav ul.hfe-nav-menu li a {
+  justify-content: flex-end !important;
+  text-align: right;
+}
+.oncos_home_about a.elementor-button-link,
+.oncos_home_our_research a.elementor-button-link,
+.oncos_home_about_daniel a.elementor-button-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Montserrat", Sans-serif !important;
+  padding: 7px 18px;
+}
+.oncos_home_hero .home_hero_oncos_org_text {
+  margin-bottom: 17px !important;
+}
+.oncos_home_hero .home_hero_oncos_org_text + .elementor-widget-heading h2 {
+  text-transform: uppercase !important;
+  line-height: 39px;
+}
+.oncos_home_about .elementor-column,
+.oncos_home_our_research .elementor-column,
+.oncos_home_about_daniel .elementor-column {
+  padding: 0 20px;
+}
+.oncos_home_hero_btm .elementor-element p,
+.oncos_home_about .elementor-column .elementor-widget-container p,
+.oncos_home_our_research .elementor-column .elementor-widget-container p,
+.oncos_home_about_daniel .elementor-column .elementor-widget-container p {
+  margin-bottom: 0;
+}
+.oncos_home_about .elementor-column .elementor-widget-container p,
+.oncos_home_our_research .elementor-column .elementor-widget-container p,
+.oncos_home_about_daniel .elementor-column .elementor-widget-container p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.header_nav_menu .hfe-flyout-wrapper .hfe-nav-menu li a {
+  font-size: 20px !important;
+  line-height: 24px !important;
+  font-weight: 500 !important;
+  font-family: "Montserrat", Sans-serif !important;
+}
+.header_nav_menu .hfe-flyout-close {
+  right: 31px !important;
+  top: 10px !important;
+}
+.main_header_login,
+.main_header_register {
+  text-align: right;
+  margin-top: 30px !important;
+}
+.main_header_login a {
+  background-color: #ffffff !important;
+  padding: 10px 15px;
+  color: #000 !important;
+  display: inline-block !important;
+  min-width: 130px;
+  text-align: center !important;
+}
+.main_header_register a {
+  border: 1px solid #ffffff !important;
+  padding: 10px 15px;
+  color: #fff !important;
+  display: inline-block !important;
+  text-align: center !important;
+  min-width: 130px;
+}
+.about_daniel_weber .elementor-icon-list-item a {
+  text-decoration: none !important;
+}
+.about_daniel_top_left .about_daniel_title {
+  margin-bottom: 10px !important;
+}
+.about_daniel_top_left .about_daniel_website {
+  margin-bottom: 25px;
+}
+.oncos_footer ul.hfe-nav-menu li {
+  padding: 15px 0 !important;
+}
+.oncos_footer ul.hfe-nav-menu li a {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-right: 2px solid #fff;
+}
+.oncos_footer ul.hfe-nav-menu li:last-child a {
+  border-right: 0 !important;
+}
+.oncos_footer ul.hfe-nav-menu li:first-child a {
+  padding-left: 0 !important;
+}
+#footer_auth ul li {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+#footer_auth ul li a {
+  border-right: 2px solid #fff;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.caontact_page_form .contact-main {
+  background-color: #fff;
+  padding: 40px 40px 50px;
+}
+.caontact_page_form .contact-main .full_name p {
+  display: flex;
+}
+.caontact_page_form .contact-main .full_name p label:nth-child(1),
+.caontact_page_form .contact-main .email p label {
+  padding-right: 10px;
+}
+.caontact_page_form .contact-main .full_name p label:last-child {
+  padding-left: 10px;
+}
+.caontact_page_form .contact-main .email {
+  max-width: 50%;
+}
+.caontact_page_form .contact-main .message p label {
+  width: 100%;
+}
+.caontact_page_form .contact-main .full_name p label .label,
+.caontact_page_form .contact-main .email p label .label,
+.caontact_page_form .contact-main .message p label .label {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+.caontact_page_form .contact-main .full_name p label input,
+.caontact_page_form .contact-main .email p input,
+.caontact_page_form .contact-main .message p textarea {
+  border-radius: 0;
+}
+.caontact_page_form .contact-main .full_name p label input:focus-visible,
+.caontact_page_form .contact-main .email p input:focus-visible,
+.caontact_page_form .contact-main .message p textarea:focus-visible,
+.caontact_page_form .btn_submit input:focus-visible {
+  outline: none !important;
+  border-radius: 0 !important;
+}
+.caontact_page_form .btn_submit input {
+  padding: 9px 27px !important;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  z-index: 9;
+  position: relative;
+  border: 1px solid #000 !important;
+}
+.caontact_page_form .btn_submit input:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+#footer_auth ul li:last-child a {
+  border-right: 0 !important;
+}
+/*  */
+.on_research_main {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 0 10px;
+}
+/* #research-grid-container {
+  display: grid;
+  grid-gap: 10px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 20px;
+} */
+#research-grid-container .research-item {
+  margin-bottom: 30px;
+}
+#research-grid-container .research-item .research-content {
+  margin-bottom: 20px;
+}
+.research_item_card {
+  border: 1.5px solid #ddd;
+  padding: 15px 20px;
+}
+.research_item_card .research-avatar img {
+  border-radius: 50%;
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.research_item_card .research_item_card_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.research_item_card .card_title {
+  margin: 0 auto 0 0;
+}
+.research_item_card .research-interactions a {
+  font-size: 13px;
+}
+.research_item_card .card_title h3 {
+  margin: 0;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.research_item_card .card_title h3 a {
+  color: #000;
+}
+.research_item_card .research_content_img img {
+  min-width: calc(100% + 40px);
+  position: relative;
+  left: -20px;
+  margin-bottom: 20px;
+}
+.research_item_card .research-interactions {
+    margin-top: 5px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.research_item_card .research-interactions a,
+.research_item_card .research_item_card_top a {
+  text-decoration: none !important;
+  color: #bdb6b6;
+}
+.research_item_card .research-interactions a:hover,
+.research_item_card .research_item_card_top a:hover {
+  color: #000 !important;
+}
+.research_item_card .research-interactions.liked a.like-button {
+  color: #000 !important;
+}
+.on_research_main .load-more-container {
+  text-align: center;
+  margin-top: 30px;
+}
+.on_research_main .load-more-container .load-more-button {
+  padding: 9px 27px !important;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0;
+  z-index: 9;
+  position: relative;
+}
+.on_research_main .load-more-container .load-more-button:hover,
+.on_research_main .load-more-container .load-more-button:focus {
+  color: #fff;
+  background-color: #000;
+}
+.on_research_main .modal .modal-body .share-icons a {
+  color: #000;
+  text-decoration: none !important;
+}
+.on_research_main .modal .modal-body .share-icons li {
+  margin-bottom: 10px;
+}
+.on_research_main .modal .close {
+  padding: 0 7px !important;
+  margin-right: 0px;
+  margin-top: -2px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  width: 30px;
+  max-height: 30px;
+  opacity: 1;
+}
+.on_research_main .modal .close span {
+  font-size: 28px !important;
+  color: #000;
+}
+.on_research_main .modal .close:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+.on_research_main .modal .close:focus {
+  outline: none !important;
+}
+.research-content p {
+  word-break: break-word !important;
+  margin-bottom: 10px;
+}
+.research-grid .modal .modal-body ul.share-icons {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.research-grid .modal .modal-body ul.share-icons li {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.research-grid .modal .modal-body ul.share-icons a {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-grid .modal .modal-body {
+  margin-bottom: 20px;
+}
+.research-grid .modal .modal-body h4 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.research-grid .modal .modal-body ul.share-icons a i {
+  font-size: 20px;
+}
+.on_research_main .modal .modal-header h5 {
+  margin: 0;
+  font-weight: 600;
+}
+.research-grid .modal .modal-body ul.share-icons li:first-child a:hover {
+  border-color: #1674ea;
+}
+.research-grid .modal .modal-body ul.share-icons li:first-child a:hover i {
+  color: #1674ea;
+}
+.research-grid .modal .modal-body ul.share-icons li:nth-child(2) a:hover {
+  border-color: #1c9cea;
+}
+.research-grid .modal .modal-body ul.share-icons li:nth-child(2) a:hover i {
+  color: #1c9cea;
+}
+.research-grid .modal .modal-body ul.share-icons li:last-child a:hover {
+  border-color: #0073af;
+}
+.research-grid .modal .modal-body ul.share-icons li:last-child a:hover i {
+  color: #0073af;
+}
+.membership_column #pmpro_account-profile {
+  border-top: 0 !important;
+}
+.membership_column #pmpro_account .pmpro_box h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.membership_column #pmpro_account-membership table th,
+.membership_column #pmpro_account-membership table td,
+.membership_column #pmpro_account-invoices table th,
+.membership_column #pmpro_account-invoices table td,
+.invoice_column #pmpro_invoices_table tr th,
+.invoice_column #pmpro_invoices_table tr td {
+  padding: 10px !important;
+}
+.membership_column #pmpro_account .pmpro_box p {
+  margin: 0 !important;
+}
+.membership_column #pmpro_account-profile ul {
+  list-style: inside;
+}
+.membership_column #pmpro_account-profile p {
+  padding-left: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.membership_column #pmpro_account-profile ul li strong {
+  min-width: 100px;
+  display: inline-block;
+}
+.membership_column #pmpro_account {
+  display: flex;
+  flex-direction: column;
+}
+.membership_column #pmpro_account #pmpro_account-membership {
+  order: 2;
+}
+.membership_column #pmpro_account #pmpro_account-profile {
+  order: 1;
+}
+.membership_column #pmpro_account #pmpro_account-invoices {
+  order: 3;
+}
+.confirmation_column .pmpro_confirmation_wrap h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.confirmation_column .pmpro_confirmation_wrap ul li strong {
+  min-width: 170px;
+  display: inline-block;
+}
+.confirmation_column .pmpro_confirmation_wrap ul {
+  margin-bottom: 20px;
+}
+.confirmation_column .pmpro_confirmation_wrap a.pmpro_a-print {
+  font-size: 14px;
+  padding: 2px 0px 3px 25px;
+}
+.confirmation_column .pmpro_confirmation_wrap .pmpro_invoice_details {
+  padding: 15px 0;
+}
+.confirmation_column .pmpro_confirmation_wrap .pmpro_invoice_details p {
+  margin-bottom: 0;
+}
+.pmpro_actions_nav {
+  margin-top: 10px;
+}
+section#comments {
+    width: 1024px;
+    margin: 0 auto;
+}
+h3.title-comments {
+	font-size: 18px;
+}
+section#comments a.url, section#comments a.comment-reply-link, section#comments .comment-metadata a time,section#comments .edit-link{
+	color:#000;
+}
+section#comments h2#reply-title {
+    display: none;
+}
+section#comments form#commentform {
+    margin-top: 10px;
+}
+section#comments textarea#comment {
+    height: 100px;
+}
+section#comments input#submit {
+    border: 1px solid #000;
+    border-radius: 0;
+    color: #000;
+}
+section#comments input#submit:hover{
+	color: #FFF;
+	background-color:#000;
+}
+section#comments .comment-list a{
+	text-decoration:none;
+}
+
+
+/*20-6*/
+.single-research .reasearch-title {
+    text-align: center;
+    min-height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+    background-position: center center;
+}
+.single-research .reasearch-title h1{
+  font-family: "Montserrat", Sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    margin:0 ;
+}
+    .research {
+      padding-top: 155px;
+      padding-bottom: 155px;
+    }
+    .research .comments-area{
+      width: 100% !important;
+    }
+    .research .page-content{
+      margin-bottom: 30px;
+    }
+    .on_research_main #research-form .btn_submit_post{
+          border: 1px solid #000;
+    border-radius: 0;
+    color: #000;
+    }
+    .on_research_main #research-form .btn_submit_post:hover{
+      color: #FFF;
+    background-color: #000;
+    }
+    /*Added by dev*/
+    .loader-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loader {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      border-color: #fff transparent #fff transparent;
+      animation: loader 1.2s linear infinite;
+    }
+
+    @keyframes loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+     .alert-box {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px;
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+    }
+
+    .alert-box .close-btn {
+      float: right;
+      cursor: pointer;
+    }
+  .alert-error{
+    position: fixed;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+  }
