@@ -6,7 +6,7 @@ Template Post Type: post, page
 get_header();
 ?>
 <main id="content" <?php post_class( 'site-main' ); ?>>
-	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
+	<?php if ( apply_filters( 'hello_elementor_page_title', false ) ) : ?>
 		<header class="page-header">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header>
@@ -45,6 +45,8 @@ jQuery(document).ready(function($) {
                     } else {
                         $loadMoreButton.text('No more posts');
                     }
+                    refreshGridMasonry();
+
                 },
                 error: function() {
                     $loadMoreButton.text('Error');
@@ -78,5 +80,4 @@ jQuery(document).ready(function($) {
             },
         });
 	});
-
 </script>

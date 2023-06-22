@@ -36,7 +36,7 @@ function custom_post_type_research() {
         'label' => 'Research',
         'description' => 'Custom post type for research',
         'labels' => $labels,
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail','excerpt','comments'),
         'public' => true,
         'menu_position' => 5,
         'menu_icon' => 'dashicons-book-alt',
